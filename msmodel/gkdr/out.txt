@@ -1,0 +1,165 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2014 The MathWorks, Inc.
+                    R2014a (8.3.0.532) 64-bit (glnxa64)
+                             February 11, 2014
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+
+
+ABC begin...
+
+training:1258
+Delta=10.0
+Starting parallel pool (parpool) using the 'local' profile ... connected to 16 workers.
+number of accepted samples=10000
+number of accepted samples=10000
+number of accepted samples=10000
+number of accepted samples=10000
+number of accepted samples=10000
+number of accepted samples=10000
+number of accepted samples=10000
+number of accepted samples=10000
+number of accepted samples=10000
+number of accepted samples=10000
+number of accepted samples=10000
+number of accepted samples=10000
+number of accepted samples=10000
+number of accepted samples=10000
+number of accepted samples=10000
+
+MEAN = 1.201909e+01, stderr=2.281315e+00
+MSE = 0.040767 
+AccRate = 0.133237, AccNum=10000
+
+Delta=8.0
+number of accepted samples=10000
+number of accepted samples=10000
+number of accepted samples=10000
+number of accepted samples=10000
+number of accepted samples=10000
+number of accepted samples=10000
+number of accepted samples=10000
+number of accepted samples=10000
+number of accepted samples=10000
+number of accepted samples=10000
+number of accepted samples=10000
+number of accepted samples=10000
+number of accepted samples=10000
+number of accepted samples=10000
+number of accepted samples=10000
+
+MEAN = 1.131558e+01, stderr=2.332510e+00
+MSE = 0.017308 
+AccRate = 0.091193, AccNum=10000
+
+Delta=6.0
+number of accepted samples=10000
+number of accepted samples=10000
+number of accepted samples=10000
+number of accepted samples=10000
+number of accepted samples=10000
+number of accepted samples=10000
+number of accepted samples=10000
+number of accepted samples=10000
+number of accepted samples=10000
+number of accepted samples=10000
+number of accepted samples=10000
+number of accepted samples=10000
+number of accepted samples=10000
+number of accepted samples=10000
+number of accepted samples=10000
+
+MEAN = 1.261178e+01, stderr=2.605610e+00
+MSE = 0.068214 
+AccRate = 0.064359, AccNum=10000
+
+Delta=4.5
+number of accepted samples=10000
+number of accepted samples=10000
+number of accepted samples=10000
+number of accepted samples=10000
+number of accepted samples=10000
+number of accepted samples=10000
+number of accepted samples=10000
+number of accepted samples=10000
+number of accepted samples=10000
+number of accepted samples=10000
+number of accepted samples=10000
+number of accepted samples=10000
+number of accepted samples=10000
+number of accepted samples=10000
+number of accepted samples=954
+
+MEAN = 1.271804e+01, stderr=3.461350e+00
+MSE = 0.073877 
+AccRate = 0.045269, AccNum=9.396933e+03
+
+Delta=3.5
+number of accepted samples=10000
+number of accepted samples=10000
+number of accepted samples=10000
+number of accepted samples=10000
+number of accepted samples=10000
+number of accepted samples=10000
+number of accepted samples=10000
+number of accepted samples=10000
+number of accepted samples=10000
+number of accepted samples=10000
+number of accepted samples=10000
+number of accepted samples=10000
+number of accepted samples=10000
+number of accepted samples=10000
+number of accepted samples=427
+
+MEAN = 1.123027e+01, stderr=2.294651e+00
+MSE = 0.015136 
+AccRate = 0.018143, AccNum=9.361800e+03
+
+Delta=2.0
+number of accepted samples=10000
+number of accepted samples=10000
+number of accepted samples=10000
+number of accepted samples=10000
+number of accepted samples=10000
+number of accepted samples=10000
+number of accepted samples=10000
+number of accepted samples=10000
+number of accepted samples=10000
+number of accepted samples=10000
+number of accepted samples=10000
+number of accepted samples=10000
+number of accepted samples=10000
+number of accepted samples=10000
+number of accepted samples=9740
+
+MEAN = 1.142842e+01, stderr=2.603278e+00
+MSE = 0.020404 
+AccRate = 0.012637, AccNum=9.982667e+03
+
+Delta=1.0
+number of accepted samples=10000
+number of accepted samples=10000
+number of accepted samples=10000
+number of accepted samples=2981
+number of accepted samples=10000
+number of accepted samples=1661
+number of accepted samples=10000
+number of accepted samples=4034
+number of accepted samples=2604
+number of accepted samples=6008
+number of accepted samples=2479
+number of accepted samples=10000
+number of accepted samples=9638
+number of accepted samples=10000
+{Error using RejGKDR (line 26)
+Attempted to access msdata(1e+08,:); index out of bounds because
+size(msdata)=[100000000,7].
+
+Error in abc (line 61)
+        parfor j=1:size_data
+} 
+>> 
