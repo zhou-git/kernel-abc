@@ -1,0 +1,5 @@
+export(sl.acf,nlar,order.dist,ricker,simuRicker,GKDR,ricker_abc,SEMI)
+export(ABC_sequential)
+import(parallel)
+importFrom("stats", "as.formula", "cov", "cov.wt", "lm", "optimize", "rnorm", "runif", "sd", "uniroot", "var")
+importFrom("utils", "flush.console", "read.table", "write.table")

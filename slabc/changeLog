@@ -1,0 +1,27 @@
+0.0-5 
+
+* adds another env+stoch variant of blowfly model, required by referee.
+
+0.0-4
+
+* added routines for blowfly model with pure demographic 
+  stochasticity. See ?ds.bf. 
+
+0.0-3
+
+* More principled approach to noise in the blowfly models ---
+  no evidence that AR useful, but multiplicative  log-normal structure 
+  is a bit weird, biologically, and could bias inference (albeit towards 
+  the stable region). 
+
+0.0-2
+
+* added routines get.trans and trans.stats to aid transfromation of 
+  stats to marginal normality
+
+* modified blowfly.ll so that it can operate with any 
+  of the blowfly datasets.
+
+* added chain2ll to NAMESPACE 
+
+* added Nicholson 1954 datasets (three) 

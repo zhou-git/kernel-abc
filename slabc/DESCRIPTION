@@ -1,0 +1,10 @@
+Package: slabc
+Version: 0.0-5
+Author: Simon Wood <s.wood@bath.ac.uk>
+Maintainer: Simon Wood <s.wood@bath.ac.uk>
+Title: Synthetic likelihood methods for very non-linear ecological series 
+Description: Routines for fitting very non-linear models to timeseries 
+             when there is process and measurement error.  
+Depends: R (>= 2.9.0)
+License: GPL (>=2)
+Packaged: 2010-06-10 20:17:10 UTC; simon

@@ -1,0 +1,7 @@
+export(sl.acf,nlar,order.dist,ricker.fey,ricker,ricker_abc,ricker_rej,colVars,ricker.ll,ng.bf,blowfly.ll,
+       bup.para,bupalus.ll,chain2ll,get.trans,not.sq,trans.stat,
+      robust.vcov,MVN.check,ds.bf,dsbf.ll,des.bf,desbf.ll,simuRicker,GKDR)
+export(ABC_sequential)
+import(MASS,mnormt,parallel,pls,abc,lhs,tensorA,dplyr,expm,Matrix)
+importFrom("stats", "as.formula", "cov", "cov.wt", "lm", "optimize", "rnorm", "runif", "sd", "uniroot", "var")
+importFrom("utils", "flush.console", "read.table", "write.table")
